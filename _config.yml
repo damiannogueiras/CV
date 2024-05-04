@@ -7,38 +7,36 @@ repository: damiannogueiras/CV
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Damián Nogueiras Meléndez
+title: profesor, ingeniero, artista
+email: damiannogueiras@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
-phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-website_title: Web (Website title override)
+phone: +34 670907368
+phone_title: móvil
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: jekyllrb
+github_username:  damiannogueiras
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: damiannoguerias
+linkedin_username: damiannogueiras
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -51,37 +49,57 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/fotoPerfil3.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Soy ingeniero de Telecomunicaciones y llevo más de veinte años dando clases, principalmente en Formación Profesional en el [Daniel Castelao](http://www.danielcastelao.org), además compatibilizo mi faceta de profesor con la <mark>artística</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Mis principales intereses son la <mark>educación</mark>, la <mark>tecnología</mark> y la <mark>creatividad</mark>.
+  
+  Me gusta trabajar en proyectos que me permitan combinar estas tres áreas.
+
 
 content:
-  - title: Projects # Title for the section
+  - title: Proyectos # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Video Clip "Hey, Boy!"
+        link: https://www.instagram.com/heyboy_thevideoclip/
+        link_text: Hey, Boy!
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Videoclip completo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=PjzZVG5awo8&ab_channel=THEMIR%D0%AFOR
         quote: >
-          Short overview of the project (optional)
+          Junto al grupo The Mirror, he realizado este videoclip musical.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          El <mark>Art Concept</mark>, asi como la producción y dirección la he realizado yo.
+          
+          Mezlando stopmotion y herramientas de edición de video.
+          
+          El escenario tiene pieza hechas con impresora 3D y en general todo está confeccionado de una manera manual.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Programación Remota
+        link: https://github.com/damiannogueiras/ProgramacionRemota/wiki
+        link_text: Documentación
+        additional_links:
+          - title:  Código fuente
+            icon: fab fa-github
+            url: https://github.com/damiannogueiras/ProgramacionRemota
+        quote: >
+          Sitio web para la programación remota de microcontroladores.
+        description: | # this will include new lines to allow paragraphs
+          He desarrollado una página web que permite la programación remota de microcontroladores.
+          
+          En este proyecto integro varias tecnologías: <mark>Python></mark>, <mark>Angular</mark>, <mark>NodeJS</mark>, <mark>Express</mark>, <mark>Socket.io</mark>, <mark>Python</mark>, <mark>Firebase</mark>, <mark>Arduino</mark> y <mark>ESP32</mark>.
+          
+          El reto fué poder, desde casa para los alumnos, programar un microcontrolador que se encuentra en el centro educativo y observar el funcionamiento con una camara web.
+
   - title: Experience
     layout: list
     content:
@@ -94,17 +112,17 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
+  - title: Educación
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Centro de Formación Profesional "Daniel Castelao"
+        sub_title: Ciclos Formativos de Grado Superior y Formación Profesional Básica
+        caption: mas de veinte años
         quote: >
-          Short institution or course description (optional)
+          He pasado por varias etapas de formación y varios módulos, abarcando la informática y la electrónica
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Mi pasión por la educación me impulsa a estar innovando y actualizándome constantemente.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
