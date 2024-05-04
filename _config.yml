@@ -24,7 +24,7 @@ github_username:  damiannogueiras
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
-instagram_username: damiannoguerias
+instagram_username: damiannogueiras
 linkedin_username: damiannogueiras
 #xing_username: jekyll
 #pinterest_username: jekyll
@@ -48,8 +48,8 @@ linkedin_username: damiannogueiras
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/fotoPerfil3.jpg)
+about_title:
+about_profile_image: images/fotoPerfil3.jpg
 about_content: | # this will include new lines to allow paragraphs
   Soy ingeniero de Telecomunicaciones y llevo más de veinte años dando clases, principalmente en Formación Profesional en el [Daniel Castelao](http://www.danielcastelao.org), además compatibilizo mi faceta de profesor con la <mark>artística</mark>.
 
@@ -96,22 +96,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           He desarrollado una página web que permite la programación remota de microcontroladores.
           
-          En este proyecto integro varias tecnologías: <mark>Python></mark>, <mark>Angular</mark>, <mark>NodeJS</mark>, <mark>Express</mark>, <mark>Socket.io</mark>, <mark>Python</mark>, <mark>Firebase</mark>, <mark>Arduino</mark> y <mark>ESP32</mark>.
+          En este proyecto integro varias tecnologías: <mark>Python</mark>, <mark>Angular</mark>, <mark>NodeJS</mark>, <mark>Express</mark>, <mark>Socket.io</mark>, <mark>Python</mark>, <mark>Firebase</mark>, <mark>Arduino</mark> y <mark>ESP32</mark>.
           
           El reto fué poder, desde casa para los alumnos, programar un microcontrolador que se encuentra en el centro educativo y observar el funcionamiento con una camara web.
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
   - title: Educación
     layout: list
     content:
@@ -123,16 +111,16 @@ content:
           He pasado por varias etapas de formación y varios módulos, abarcando la informática y la electrónica
         description: | # this will include new lines to allow paragraphs
           Mi pasión por la educación me impulsa a estar innovando y actualizándome constantemente.
-  - title: A Little More About Me
+  - title: Disponibilidad
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Estoy interesado en proyectos que me permitan combinar la educación, la tecnología y la creatividad.
+      
+      Que sean de tiempo parcial y que me permitan trabajar desde casa como preferencia
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: mándame un correo si quieres contactar conmigo o llámame
 
 # Build settings
 # (Use this if you are hosting your resume on GitHub Pages)
