@@ -118,7 +118,7 @@ footer_show_references: true
 
 # Build settings
 # (Use this if you are hosting your resume on GitHub Pages)
-theme: modern-resume-theme
+# theme: modern-resume-theme
 # (Use this if you are hosting your resume on GitHub)
 # remote_theme: sproogen/modern-resume-theme
 
