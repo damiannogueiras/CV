@@ -61,7 +61,11 @@ about_content: | # this will include new lines to allow paragraphs
 
   Mis principales intereses son la <mark>educación</mark>, la <mark>tecnología</mark> y la <mark>creatividad</mark>
   
-  Me gusta trabajar en proyectos que me permitan combinar estas tres áreas
+  Disponibilidad:
+  
+  - Estoy interesado en proyectos que me permitan combinar la educación, la tecnología y la creatividad.
+  
+  - Que sean de tiempo parcial y también que me permitan trabajar desde casa como preferencia
 
 
 content:
@@ -105,15 +109,26 @@ content:
           En este proyecto integro varias tecnologías: <mark>Python</mark>, <mark>Angular</mark>, <mark>NodeJS</mark>, <mark>Express</mark>, <mark>Socket.io</mark>, <mark>Python</mark>, <mark>Firebase</mark>, <mark>Arduino</mark> y <mark>ESP32</mark>.
           
           El reto fué poder, desde casa para los alumnos, programar un microcontrolador que se encuentra en el centro educativo y observar el funcionamiento con una camara web.
-
-
-  - title: Disponibilidad
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Estoy interesado en proyectos que me permitan combinar la educación, la tecnología y la creatividad.
-      
-      Que sean de tiempo parcial y que me permitan trabajar desde casa como preferencia
-
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Otros proyectos
+        link: https://github.com/damiannogueiras/
+        link_text: Documentación
+        additional_links:
+          - title:  Código fuente
+            icon: fab fa-github
+            url: https://github.com/damiannogueiras/
+        quote: >
+          Temas que me interesan
+        description: | # this will include new lines to allow paragraphs
+          La inteligencia artificial, ya sea generativa como predictiva
+          
+          [Touchdesigner](https://derivative.ca/) como herramienta de manipulación de video en tiempo real
+          
+          Unity para la creación de videojuegos
+          
+          Las herramientas de Google Workspace para la educación y desarrollo empresarial
 # Footer
 footer_show_references: true
 references_title: mándame un correo o llámame
