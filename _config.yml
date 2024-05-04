@@ -63,7 +63,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   Disponibilidad:
   
-  - Estoy interesado en proyectos que me permitan combinar la educación, la tecnología y la creatividad.
+  - Estoy interesado en proyectos que me permitan combinar la educación, la tecnología y la creatividad
   
   - Que sean de tiempo parcial y también que me permitan trabajar desde casa como preferencia
 
@@ -83,13 +83,13 @@ content:
             icon: fab fa-youtube
             url: https://www.youtube.com/watch?v=PjzZVG5awo8&ab_channel=THEMIR%D0%AFOR
         quote: >
-          Junto al grupo The Mirror, he realizado este videoclip musical.
+          Junto al grupo The Mirror, he realizado este videoclip musical
         description: | # this will include new lines to allow paragraphs
-          El <mark>Art Concept</mark>, asi como la producción y dirección la he realizado yo.
+          El <mark>Art Concept</mark>, asi como la producción y dirección la he realizado yo
           
-          Mezlando stopmotion y herramientas de edición de video.
+          Mezclando stopmotion y herramientas de edición de video
           
-          El escenario tiene pieza hechas con impresora 3D y en general todo está confeccionado de una manera manual.
+          El escenario tiene piezas hechas con impresora 3D y en general todo está confeccionado de una manera manual
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
@@ -108,7 +108,7 @@ content:
           
           En este proyecto integro varias tecnologías: <mark>Python</mark>, <mark>Angular</mark>, <mark>NodeJS</mark>, <mark>Express</mark>, <mark>Socket.io</mark>, <mark>Python</mark>, <mark>Firebase</mark>, <mark>Arduino</mark> y <mark>ESP32</mark>.
           
-          El reto fué poder, desde casa para los alumnos, programar un microcontrolador que se encuentra en el centro educativo y observar el funcionamiento con una camara web.
+          El reto fue poder, desde casa para los alumnos, programar un microcontrolador que se encuentra en el centro educativo y observar el funcionamiento con una cámara web.
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
         # other value (or no value) means no border will be displayed
