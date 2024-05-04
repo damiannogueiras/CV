@@ -48,14 +48,20 @@ linkedin_username: damiannogueiras
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title:
+# about_title:
 about_profile_image: images/fotoPerfil3.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Soy ingeniero de Telecomunicaciones y llevo más de veinte años dando clases, principalmente en Formación Profesional en el [Daniel Castelao](http://www.danielcastelao.org), además compatibilizo mi faceta de profesor con la <mark>artística</mark>.
-
-  Mis principales intereses son la <mark>educación</mark>, la <mark>tecnología</mark> y la <mark>creatividad</mark>.
+  Soy ingeniero de Telecomunicaciones y llevo más de veinte años dando clases, principalmente en Formación Profesional en el [Daniel Castelao](http://www.danielcastelao.org)
   
-  Me gusta trabajar en proyectos que me permitan combinar estas tres áreas.
+  He pasado por varias etapas de formación y varios módulos, abarcando la informática y la electrónica
+  
+  Mi pasión por la educación me impulsa a estar innovando y actualizándome constantemente
+  
+  Compatibilizo mi faceta de profesor con la <mark>artística</mark>
+
+  Mis principales intereses son la <mark>educación</mark>, la <mark>tecnología</mark> y la <mark>creatividad</mark>
+  
+  Me gusta trabajar en proyectos que me permitan combinar estas tres áreas
 
 
 content:
@@ -100,17 +106,7 @@ content:
           
           El reto fué poder, desde casa para los alumnos, programar un microcontrolador que se encuentra en el centro educativo y observar el funcionamiento con una camara web.
 
-  - title: Educación
-    layout: list
-    content:
-      - layout: top-right
-        title: Centro de Formación Profesional "Daniel Castelao"
-        sub_title: Ciclos Formativos de Grado Superior y Formación Profesional Básica
-        caption: mas de veinte años
-        quote: >
-          He pasado por varias etapas de formación y varios módulos, abarcando la informática y la electrónica
-        description: | # this will include new lines to allow paragraphs
-          Mi pasión por la educación me impulsa a estar innovando y actualizándome constantemente.
+
   - title: Disponibilidad
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -120,7 +116,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: mándame un correo si quieres contactar conmigo o llámame
+references_title: mándame un correo o llámame
 
 # Build settings
 # (Use this if you are hosting your resume on GitHub Pages)
